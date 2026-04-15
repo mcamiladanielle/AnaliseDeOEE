@@ -1,24 +1,50 @@
 ## AnalisedeOEE
 Conceito e Análise de OEE com Power BI
 
-## 💼 Contexto de Negócio
-O #OEE é um acrônimo de Overall Equipment Effectiveness.
-É um indicador muito utilizado na #indústria, que apesar de extremamente importante de uma forma simples e direta apresenta quanto efetivamente o equipamento foi utilizado, através da razão entre o que o equipamento produziu de itens bons pela capacidade de produção do equipamento.
+**1. Introdução**
 
-OEE = Disponibilidade * Performance * Qualidade
+O OEE (Overall Equipment Effectiveness), ou Eficiência Global do Equipamento, é um indicador amplamente utilizado na indústria para medir a produtividade de máquinas e processos.
+De forma simples e direta, o OEE mostra quanto o equipamento foi efetivamente utilizado, relacionando a produção de itens bons com a capacidade total de produção.
 
-<img width="926" height="528" alt="OEEpg" src="https://github.com/user-attachments/assets/b90592f5-0ad5-43a4-8bf1-b5489127a537" />
+A fórmula clássica é:
+OEE = Disponibilidade * Desempenho * Qualidade
 
-As horas de paradas não planejadas impactam diretamente no índice de #Disponibilidade de um equipamento, o que consequentemente irá impactar no indicador principal que é o OEE.
+**2. Pilares do OEE**
 
-É possível identificar quanto tempo o equipamento produziu em relação ao tempo disponível, e obtem-se o índice de #Disponibilidade.
-O índice de #Performance permite analisar a velocidade de produção dos itens em relação ao tempo ciclo esperado. E dos itens produzidos em relação aos que atenderam as especificações(peças boas), se dá o índice de #Qualidade. Através da multiplicação desses índices temos o OEE, tornando possível identificar onde estão as perdas e direcionar as ações de forma efetiva. 
+🔹 **Disponibilidade**
+Mede o tempo em que o equipamento esteve disponível para produção em relação ao tempo planejado.
+Impacto: Paradas não planejadas reduzem diretamente este índice.
 
-## 📝 Conclusão
-O Relatório permite analisar O QUÊ (impacto no indicador), QUAL (qual a voz de parada), QUANDO (data, turno) e ONDE (qual equipamento, grupo de máquinas) ocorreram interferências que impactaram na Eficiência Global do Equipamento: o OEE, facilitando investigação das causas e a tomada de decisão para amenizar/eliminar o impacto negativo no principal indicador da fábrica.
+🔹 **Desempenho**
+Avalia a velocidade de produção em comparação ao tempo de ciclo esperado.
+Impacto: Produção abaixo da capacidade teórica reduz o desempenho.
 
-## 📊 Tecnologias Utilizadas
+🔹 **Qualidade**
+Mede a proporção de itens produzidos que atenderam às especificações (peças boas).
+Impacto: Refugos e retrabalhos reduzem o índice de qualidade.
 
-Os dados para utilizados para a costrução do Dashboard são ficticios, mas permitiram aplicar as técnicas de análise do Indicador utilizando o  **Power BI**. Através dessa base, forma aplicados os conceitos de **ETL** para tratamento dos dados com o **Power Query**, **Modelagem** relacionamentos de tabelas, aplicação de medidas em **DAX** e **Storytelling**.
+🔹 **OEE Global**
+Resultado da multiplicação dos três índices.
+Permite identificar perdas e direcionar ações de melhoria de forma efetiva.
 
+**3. Conclusão**
 
+O relatório baseado em OEE permite analisar:
+
+O QUÊ: impacto no indicador.
+QUAL: tipo de parada ou perda.
+QUEM: responsável pela atividade
+QUANDO: momento em que ocorreu.
+ONDE: equipamento ou grupo de máquinas afetado.
+
+Essas análises facilitam a investigação das causas e a tomada de decisão para reduzir ou eliminar impactos negativos na eficiência global da fábrica.
+
+**4. Tecnologias Utilizadas**
+
+Power BI para construção dos dashboards.
+Power Query para ETL e tratamento dos dados.
+Modelagem de relacionamentos entre tabelas fato e dimensão.
+Medidas DAX para cálculo dos índices de Disponibilidade, Desempenho, Qualidade e OEE.
+Storytelling visual para apresentação clara e objetiva dos resultados.
+
+Obs.: Os dados utilizados são fictícios, mas permitem aplicar as técnicas de análise do indicador OEE em ambiente de BI.
