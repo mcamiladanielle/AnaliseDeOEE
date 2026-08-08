@@ -7,7 +7,7 @@ O OEE (Overall Equipment Effectiveness), ou Eficiência Global do Equipamento, �
 De forma simples e direta, o OEE mostra quanto o equipamento foi efetivamente utilizado, relacionando a produção de itens bons com a capacidade total de produção.
 
 A fórmula clássica é:
-OEE = Disponibilidade * Desempenho * Qualidade
+OEE = Disponibilidade x Desempenho x Qualidade
 
 <img width="926" height="528" alt="OEEpg" src="https://github.com/user-attachments/assets/d3b168fd-b3a6-4e29-9005-1fc2ce9818b8" />
 
